@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="../registration_numbers/css/registration_number.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container1 inputs">
+        <!-- TYPED IN STUFF -->
+        <section>
+            <div class="typeIn">
+                <label for="">Registration Number:</label> 
+                <input type="text" value="" class="regNum">
+            </div>
+            <div class="addBtnContainer">
+                <button class="addBtn">ADD</button>
+            </div>
+        </section>
+
+        <!-- ERROR MESSAGE -->
+        <section class="error-numplate"></section>
+
+        <!-- DROP DOWN MENU FOR TOWNS-->
+        <section class="menuContainer"> 
+            <label for="" class="town-label">Town:</label>
+            <span class="dropDown">
+                <select name="towns" id="accessingDropDown" class="dropDownContent">
+                    <option value="selecttown">Select Town</option>
+                    <option value="CY">Belville</option>
+                    <option value="CA">Cape Town</option>
+                    <option value="CJ">Paarl</option>
+                    <option value="CL">Stellenbosch</option>
+                    <option value="ALL">Show All</option>
+                </select>
+            </span>
+        </section>
+
+        <!-- SHOW AND RESET BUTTONS-->
+        <section class="show-and-reset-btns">
+            <button onclick="clickDropDown()" class="dropDownBtn">SHOW</button>
+            <button class="reset">RESET</button>
+        </section>
+    </div>
+    
+    <!-- GOING TO CREATE A NUMBER PLATE DYNAMICALLY -->
+    <section class="container2">
+        <div class="outputs">
+            <div class="randomDiv"></div>
+        </div>
+    </section>
+
+    <!-- *** SCRIPTS ****-->
+    <script src="../registration_numbers_unit_tests/js/registration_number.js" charset="utf-8"></script>
+    <script src="../registration_numbers_unit_tests/js/dom-logic.js" charset="utf-8"></script>
+</body>
+</html>

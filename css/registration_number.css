@@ -1,0 +1,117 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 1.1rem;
+  background-color: aliceblue;
+}
+
+* {
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #333447;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+
+.container1 {
+  width: 45%;
+  margin: 2rem auto 2rem auto;
+  padding: 2rem;
+}
+
+.inputs {
+  background-color: rgb(171, 215, 253);
+  box-shadow: 0 1rem 1rem 0;
+  /*height: 70%;*/
+}
+
+/* INPUT TEXT BOX */
+.typeIn {
+  margin-bottom: 0.5rem;
+  float: right;
+}
+
+.addBtnContainer {
+  clear: right;
+  float: right;
+  margin-bottom: 1rem;
+}
+
+.addBtn {
+  background-color: rgb(79, 243, 150);
+  width: 5rem;
+}
+
+/* ERROR MESSAGE */
+.error-numplate {
+  color:crimson;
+  text-align: center;
+  clear: right;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+/* DROP DOWN MENU*/
+.menuContainer {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.town-label {
+  margin-right: 0.5rem;
+}
+
+/*select option {
+  background-color: magenta;
+}*/
+
+option:hover {
+  background-color: green;
+}
+
+/* RESET AND SHOW BUTTON */
+.dropDownBtn {
+  background-color: cornflowerblue;
+  width: 5rem;
+  margin-right: 0.5rem;
+}
+
+.reset {
+  background-color: cornflowerblue;
+  width: 5rem;
+  margin-left: 0.5rem;
+}
+
+.show-and-reset-btns {
+  text-align: center;
+}
+
+/* OUTPUT */
+.container2 {
+  text-align: center;
+  width: 45%;
+  margin: 2rem auto 2rem auto;
+}
+
+.num-plate {
+  border: black solid 0.15rem;
+  background-color: silver;
+  border-radius: 2rem;
+  width: 10rem;
+  text-align: center;
+  margin: auto 1rem 0.5rem 1rem;
+  float: left;
+}
+
+.randomDiv {
+  clear: left;
+}
+
+/*.outputs {
+  background-color: cyan;
+}*/
